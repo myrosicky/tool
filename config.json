@@ -1,0 +1,29 @@
+{
+    "name": "自动化操作配置",
+    "description": "定义一系列图像识别和操作步骤",
+    "delay_before_start": 3,
+    "actions": [
+        {
+            "type": "find_image",
+            "template_path": "e:/2.png",
+            "threshold": 0.8,
+            "fail_action": "abort"
+        },
+        {
+            "type": "click",
+            "button": "left",
+            "clicks": 1
+        },
+        {
+            "type": "find_image",
+            "template_path": "e:/3.png",
+            "threshold": 0.8,
+            "fail_action": "abort"
+        },
+        {
+            "type": "type_text",
+            "text": "food.name",
+            "interval": 0.1
+        }
+    ]
+}
