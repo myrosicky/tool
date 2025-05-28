@@ -1,6 +1,6 @@
 {
-    "name": "自动化操作配置",
-    "description": "定义一系列图像识别和操作步骤",
+    "name": "auto script",
+    "description": "define your actions",
     "delay_before_start": 3,
     "actions": [
         {
